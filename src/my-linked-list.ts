@@ -40,7 +40,7 @@ export class MyLinkedList<T> {
             this.begin = new ListNode<T>(data, this.begin);
         } else {
                 let tmpNode = this.begin;
-                for (let i = 0; i < index ; i++) {
+                for (let i = 0; i < index; i++) {
                     tmpNode = tmpNode?.nextNode;
                 }
                 const newNode = new ListNode(data, tmpNode?.nextNode);
