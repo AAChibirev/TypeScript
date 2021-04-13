@@ -1,0 +1,7 @@
+*.class
+*.xml
+*.iml
+.idea/
+out/
+build/
+node_modules/
